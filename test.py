@@ -10,14 +10,11 @@ class TestSoma(unittest.TestCase):
             (100, 200, 300)
         ]
         
-        results = []
         for a, b, expected in test_cases:
             result = soma(a, b)
-            results.append(f"soma({a}, {b}) = {result} (esperado: {expected})")
             self.assertEqual(result, expected)
-        
-        for r in results:
-            print(r)
+            if result == expected:
+                print(f"soma({a}, {b}) = {result} (esperado: {expected})")
 
 if __name__ == '__main__':
     unittest.main()
