@@ -1,4 +1,4 @@
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
+@[LopesGeovane , how many stars are there in these galaxies?]({"stubs": ["solution.py"], "command": "python3 test.py"})
 
 # Welcome!
 
