@@ -1,4 +1,8 @@
-title: Simple Python Template
+title: Aula Ctrl+Play
 plan:
 - title: Python Snippet
   statement: statement.md
+projects:
+  python:
+    root: /python-project
+    runner: python:3
