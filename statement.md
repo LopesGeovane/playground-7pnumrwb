@@ -3,6 +3,8 @@
 This Python template lets you get started quickly with a simple one-page playground.
 
 ```python runnable
+from solution import soma
+
 soma(2,3)
 
 ```
